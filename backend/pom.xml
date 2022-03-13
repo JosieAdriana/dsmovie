@@ -13,7 +13,7 @@
 	<artifactId>dsmovie</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>dsmovie</name>
-	<description>Projeto criado na semana Spring React</description>
+	<description>Projeto criado na semana Sprinf React em janeiro de 2022</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>

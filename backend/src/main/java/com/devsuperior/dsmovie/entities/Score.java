@@ -7,14 +7,13 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "tb_score")
 public class Score {
-
+	
+	// quando a pk é composta instanciar para garantir que será iniciada
 	@EmbeddedId
 	private ScorePK id = new ScorePK();
-	
 	private Double value;
 	
-	public Score() {
-	}
+	public Score() {}
 	
 	public void setMovie(Movie movie) {
 		id.setMovie(movie);

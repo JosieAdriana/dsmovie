@@ -3,15 +3,14 @@ package com.devsuperior.dsmovie.dto;
 import com.devsuperior.dsmovie.entities.Movie;
 
 public class MovieDTO {
+	
 	private Long id;
 	private String title;
 	private Double score;
 	private Integer count;
 	private String image;
 	
-	public MovieDTO() {
-		
-	}
+	public MovieDTO() {}
 
 	public MovieDTO(Long id, String title, Double score, Integer count, String image) {
 		this.id = id;
@@ -21,6 +20,7 @@ public class MovieDTO {
 		this.image = image;
 	}
 	
+//	mandar uma copia para a entidade
 	public MovieDTO(Movie movie) {
 		id = movie.getId();
 		title = movie.getTitle();
@@ -68,8 +68,4 @@ public class MovieDTO {
 	public void setImage(String image) {
 		this.image = image;
 	}
-	
-	
-	
-	
 }
